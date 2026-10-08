@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cartas com Nathan</title>
+<meta name="description" content="Consultas de tarô e baralho cigano com ética, sinceridade e empatia.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="estrelas" aria-hidden="true"></canvas>
+<main class="pagina">
+  <header class="topo">
+    <img class="logo" src="assets/logo.png" alt="Gato preto com lanterna e carta, logo Cartas com Nathan">
+    <nav class="redes" aria-label="Redes sociais">
+      <a href="https://instagram.com/cartascomnathan" aria-label="Instagram" target="_blank" rel="noopener"><img class="rede" aria-hidden="true" src="assets/instagram.png" alt="Instagram"></img></a>
+      <a href="https://wa.me/5521981723351" aria-label="WhatsApp" target="_blank" rel="noopener"><img class="rede" aria-hidden="true" src="assets/whatsapp.png" alt="WhatsApp"></img></a>
+      <a href="https://tiktok.com/@cartascomnathan_" aria-label="TikTok" target="_blank" rel="noopener"><img class="rede" aria-hidden="true" src="assets/tiktok.png" alt="TikTok"></img></a>
+      <a href="mailto:cartascomnathan@gmail.com" aria-label="Email" target="_blank" rel="noopener"><img class="rede" aria-hidden="true" src="assets/email.png" alt="Email"></img></a>
+    </nav>
+  </header>
+
+  <section class="cartao" id="consulta">
+    <img class="foto" src="assets/consulta.jpg" alt="Mesa de atendimento com baralhos, cristais e moedas">
+    <h2><button class="gatilho" aria-expanded="false" aria-controls="consulta-corpo">O que esperar de uma consulta comigo</button></h2>
+    <div class="corpo" id="consulta-corpo"><div class="corpo-int">
+      <div class="texto">
+        <p>Em sua consulta não terá apenas sua dúvida respondida.</p>
+        <p>Verei o que acontece em torno da sua situação, pontos positivos e negativos, conselhos da espiritualidade para você nesse momento da sua vida (conselhos que podem ou não ter a ver com sua pergunta). Sempre com muita ética, sinceridade, transparência e empatia.</p>
+        <p>Para além disso, você terá também um espaço seguro para conversar, desabafar e tirar qualquer outra dúvida que fique após ou durante a tiragem. Nunca serei o cartomante que apenas responde sua pergunta, muito pelo contrário, sempre que enviar mensagem estarei ali para conversarmos por horas se quiser!</p>
+        <p>Acompanharei as atualizações da sua situação e vou aconselhando conforme a energia do momento e as orientações da espiritualidade. No final de todas as tiragens trago conselhos e suporte emocional para a sua situação, pois a consulta não acaba na resposta da sua dúvida, é necessário um caminho para trilhar e um direcionamento bem dado.</p>
+        <p>Serei seu cartomante de confiança sempre que precisar!</p>
+      </div>
+    </div></div>
+    <button class="seta-btn" aria-label="Abrir ou fechar seção" aria-expanded="false" aria-controls="consulta-corpo"><img class="seta" src="assets/seta-baixo.png" alt=""></button>
+  </section>
+
+  <section class="cartao" id="metodos">
+    <img class="foto" src="assets/metodos.jpg" alt="Cartas de tarô e baralho cigano espalhadas sobre a mesa">
+    <h2><button class="gatilho" aria-expanded="false" aria-controls="metodos-corpo">Métodos de tiragem disponíveis</button></h2>
+    <div class="corpo" id="metodos-corpo"><div class="corpo-int">
+      <div class="painel" id="lista"></div>
+      <div class="painel detalhe" id="detalhe" hidden></div>
+    </div></div>
+    <button class="seta-btn" aria-label="Abrir ou fechar seção" aria-expanded="false" aria-controls="metodos-corpo"><img class="seta" src="assets/seta-baixo.png" alt=""></button>
+  </section>
+
+  <footer class="rodape">@cartascomnathan_</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

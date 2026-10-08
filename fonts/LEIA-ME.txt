@@ -1,0 +1,5 @@
+Coloque aqui os arquivos baixados do dafont, com estes nomes:
+Typeecon.ttf | WizardryNight.ttf | Foglihten-No01.otf
+(ou ajuste os nomes nos @font-face do style.css).
+Typeecon é uma fonte de ícones: as letras a / b / c em index.html (classe .redes)
+são provisórias. Troque pela letra que gera Instagram, WhatsApp e TikTok na fonte.
